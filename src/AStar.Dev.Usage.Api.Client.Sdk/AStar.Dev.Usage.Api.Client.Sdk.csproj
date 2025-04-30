@@ -18,14 +18,14 @@
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/astar-development/</PackageProjectUrl>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
-        <PackageReleaseNotes>Initial creation.</PackageReleaseNotes>
+        <PackageReleaseNotes>Add tests.</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/astar-development/</RepositoryUrl>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <TargetFramework>net9.0</TargetFramework>
         <Title>AStar.Dev.Usage.Api.Client.SDK</Title>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
@@ -36,7 +36,7 @@
 
     <ItemGroup>
         <PackageReference Include="AStar.Dev.Api.Client.Sdk.Shared" Version="0.1.0"/>
-        <PackageReference Include="AStar.Dev.Logging.Extensions" Version="0.5.1"/>
+        <PackageReference Include="AStar.Dev.Logging.Extensions" Version="0.5.2"/>
         <PackageReference Include="AStar.Dev.Api.HealthChecks" Version="0.4.0"/>
         <PackageReference Include="AStar.Dev.Infrastructure.UsageDb" Version="0.1.0"/>
         <PackageReference Include="AStar.Dev.Technical.Debt.Reporting" Version="0.1.0"/>

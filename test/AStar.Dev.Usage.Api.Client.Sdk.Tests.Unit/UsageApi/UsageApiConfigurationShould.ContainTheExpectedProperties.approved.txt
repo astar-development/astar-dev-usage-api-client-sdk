@@ -1,0 +1,6 @@
+﻿{
+  "baseUrl": "https://uri.doesnt.matter.com",
+  "scopes": [
+    "Not Important"
+  ]
+}
