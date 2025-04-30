@@ -18,14 +18,14 @@
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/astar-development/</PackageProjectUrl>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
-        <PackageReleaseNotes>Initial creation.</PackageReleaseNotes>
+        <PackageReleaseNotes>Add tests.</PackageReleaseNotes>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/astar-development/</RepositoryUrl>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <TargetFramework>net9.0</TargetFramework>
         <Title>AStar.Dev.Usage.Api.Client.SDK</Title>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
     </PropertyGroup>
 
     <ItemGroup>

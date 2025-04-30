@@ -1,4 +1,5 @@
-﻿using System.Net.Http.Json;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Net.Http.Json;
 using System.Text.Json;
 using AStar.Dev.Api.HealthChecks;
 using AStar.Dev.Functional.Extensions;
@@ -16,6 +17,7 @@ namespace AStar.Dev.Usage.Api.Client.SDK.UsageApi;
 /// <param name="tokenAcquisitionService"></param>
 /// <param name="logger"></param>
 [Refactor(5, 10, "This class needs to be refactored / rewritten")]
+[ExcludeFromCodeCoverage]
 public sealed class UsageApiClient(HttpClient httpClient, ITokenAcquisition tokenAcquisitionService, ILoggerAstar<UsageApiClient> logger) : IApiClient
 {
     private static readonly JsonSerializerOptions JsonSerializerOptions = new(JsonSerializerDefaults.Web);
